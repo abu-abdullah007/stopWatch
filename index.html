@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="fonts/fonts.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="media/clockMain.png">
+    <title>Stop Watch</title>
+</head>
+<body>
+    <div class="main-wrapper">
+        <div class="center-section">
+            <div class="display-section">
+                <h1 id="display">00:00:00</h1>
+            </div>
+            <div class="button-section">
+                <div class="box">
+                    <button onclick="startTime()">Start</button>
+                </div>
+                <div class="box">
+                    <button onclick="pauseTime()">Pause</button>
+                </div>
+                <div class="box">
+                    <button type="reset" onclick="resetTime()">Reset</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
